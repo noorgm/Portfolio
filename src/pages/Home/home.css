@@ -10,33 +10,26 @@
     letter-spacing: 2px;
 } */
 /* Don't touch the top .name class */
-
-.home-bg {
+.home {
     grid-area: content;
 }
-.home {
-    margin-top: 4rem;
+
+/* DESKTOP FIRST */
+.main-home { 
+    margin-top: 51px;
+    /* background-color: antiquewhite; */
 }
-.home-left {
-    grid-column: 1 / 9;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-.home-left h1 {
-    padding-bottom: 2rem;
-}
-.hl-bottom {
-    grid-column: 1 / 9;
+.left-home {
+    grid-column: 1 / 6;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
 }
-.hl-bottom > img {
-    width: min(30%, 153px);
+.l-h-top * {
+    font-size: 5rem;
 }
-.portrait {
-    grid-column: 1 / 9;
-}
-.home-skills {
-    grid-column: 1 / 9;
+.right-home {
+    position: absolute;
+    right: 21px;
+    top: 91px;
 }
