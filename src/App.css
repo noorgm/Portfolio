@@ -1,0 +1,154 @@
+.app {
+  display: grid;  
+  grid-template-areas: 
+  'navbar'
+  'content'
+  'footer';
+  min-height: 100vh;   
+}
+.container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c d d d d"
+    "c c c c d d d d";
+}
+.item1 {
+  grid-area: a;
+}
+.item2 {
+  grid-area: b;
+  align-self: start;
+}
+.item3 {
+  grid-area: c;
+  align-self: end;
+}
+.item4 {
+  grid-area: d;
+  align-self: center;
+} */
+
+
+
+
+
+/* .wrapper {
+  display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "hd"
+      "main"
+      "sd"
+      "ft";
+  }
+
+  .header {
+    grid-area: hd;
+    background-color: aqua;
+  }
+  .footer {
+    grid-area: ft;
+    background-color: blueviolet;
+  }
+  .content {
+    grid-area: main;
+    background-color: brown;
+  }
+  .sidebar {
+    grid-area: sd;
+    background-color: chocolate;
+  }
+
+  @media (min-width: 500px) {
+    .wrapper {
+      grid-template-columns: repeat(9, 1fr);
+      grid-template-areas:
+        "hd hd hd hd   hd   hd   hd   hd   hd"
+        "sd sd sd main main main main main main"
+        "sd sd sd  ft  ft   ft   ft   ft   ft";
+    }
+  }
+  @media (min-width: 700px) {
+    .wrapper {
+      grid-template-areas:
+        "hd hd hd   hd   hd   hd   hd   hd hd"
+        "sd sd main main main main main ft ft";
+    }
+  } */
+
+
+
+
+
+
+
+/* .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+  }
+
+  .box1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-color: aqua;
+  }
+  .box2 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    background-color: beige;
+  }
+  .box3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: chartreuse;
+  }
+  .box4 {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    background-color: darkkhaki;
+  } */

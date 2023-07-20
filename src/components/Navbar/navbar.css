@@ -1,0 +1,14 @@
+nav {
+    grid-area: navbar;
+}
+
+/* MOBILE SCREEN */
+.ul, .nav-contact {
+    /* display: none; */
+}
+nav .logo {
+    grid-column: 1 / 4;
+}
+.logo > img {
+    width: min(80%, 117px);
+}

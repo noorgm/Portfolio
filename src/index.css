@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #1d3557;
+    --secondary-color: #457b9d;
+    --third-color: #a8dadc;
+    --forth-color: #f1faee;
+    --fifth-color: #e63946;
+
+
+    /* SCSS RGB */
+    --primary--color: rgba(29, 53, 87, 1);
+    --secondary--color: rgba(69, 123, 157, 1);
+    --third--color: rgba(168, 218, 220, 1);
+    --forth--color: rgba(241, 250, 238, 1);
+    --fifth--color: rgba(230, 57, 70, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Space Grotesk', sans-serif;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: 'Ysabeau SC', sans-serif;
+    height: 100%;
+    background-color: var(--third--color);
+}
+body, a, Link {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body button {
+    border-radius: 11px;
+    padding: 13px 27px;
+    border: none;
+    background-color: rgb(241, 7, 54);
+    color: #fff;
+    opacity: 0.75;
+    font-size: 17px;
+    box-shadow: 5px 5px 0px 0px #000;
+    cursor: pointer;
+}
+body button:hover {
+    opacity: 1;
+}
+
+h1, h2, h3, h4 {
+    font-size: 2.5rem;
+    color: var(--primary-text);
+    font-weight: 700;
+}
+
+p {
+    color: var(--secondary-text);
+}

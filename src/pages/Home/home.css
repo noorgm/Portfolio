@@ -1,0 +1,42 @@
+/* The Sun */
+/* .name {
+    display: inline-flex;
+    align-items: center;
+    background: radial-gradient(circle at 70%, #FF4E00, #EC9F05 100%, #FF4E00 90%);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-left: 5px;
+    letter-spacing: 2px;
+} */
+/* Don't touch the top .name class */
+
+.home-bg {
+    grid-area: content;
+}
+.home {
+    margin-top: 4rem;
+}
+.home-left {
+    grid-column: 1 / 9;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.home-left h1 {
+    padding-bottom: 2rem;
+}
+.hl-bottom {
+    grid-column: 1 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hl-bottom > img {
+    width: min(30%, 153px);
+}
+.portrait {
+    grid-column: 1 / 9;
+}
+.home-skills {
+    grid-column: 1 / 9;
+}
