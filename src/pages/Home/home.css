@@ -44,6 +44,7 @@
     margin: 2.7rem 0px 2rem 0px;
 }
 .home-skill {
+    display: flex;
     align-items: center;
     font-size: 1.3rem;
     gap: 3px;
@@ -63,23 +64,51 @@
     line-height: 1.9;    
 }
 .right-home {
-    display: flex;
     position: absolute;
     right: 21px;
     top: 91px;
     z-index: 0;
 }
 
+/* Tech SKILLS */
 .techs-bg {
     grid-column: 1 / 9;
     grid-row: 2;
     background-color: var(--primary-color);
     margin-top: 117px;
     min-height: 213px;
-    clip-path: polygon(0% 35.13%, 0% 25%, 55.44% 25%, 62.9% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 35.13%, 0% 21%, 59% 21%, 63% 0%, 100% 0%, 100% 100%, 0% 100%);
     display: flex;
     align-items: center;
 }
-.techs > h4 {
+.tech-heading {
+    /* padding: 31px; */
+    padding-right: 23px;
+    border-right: 2px solid var(--forth-color);
+}
+.tech-heading h5 {
     color: var(--forth-color);
+    font-size: 1.5rem;
+}
+.techs {
+    display: flex;
+    align-items: center;
+    gap: 73px;
+}
+.tech-skill {
+    display: flex;
+    gap: 37px;
+}
+.tech-skill img {
+    display: flex;
+    width: 31px;
+}
+.tech-card {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 11px 21px;
+    background-color: var(--forth-color);
+    box-shadow: 5px 5px 0px 0px var(--secondary-color);
+    margin: 10px;
 }

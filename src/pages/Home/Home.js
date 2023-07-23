@@ -5,6 +5,10 @@ import portrait from '../../assets/images/portrait1.png'
 import ui from '../../assets/images/ui.png'
 import responsive from '../../assets/images/laptop.png'
 import git from '../../assets/images/git.png'
+import html from '../../assets/images/techs/html.svg';
+import css from '../../assets/images/techs/css.svg';
+import js from '../../assets/images/techs/js.svg';
+import react from '../../assets/images/techs/react.svg';
 import './home.css';
 
 
@@ -52,7 +56,23 @@ const Home = () => {
           <section className="techs-bg">
             <div className="container">
               <div className="techs">
-                <h4>Front-End Skills: </h4>
+                <div className="tech-heading">
+                  <h5>Front-End Skills</h5>
+                </div>
+                <div className="tech-skill">
+                  <div className="tech-card">
+                    <img src={html} alt="html" />
+                  </div>
+                  <div className="tech-card">
+                    <img src={css} alt="css" />
+                  </div>
+                  <div className="tech-card">
+                    <img src={js} alt="js" />
+                  </div>
+                  <div className="tech-card">
+                    <img src={react} alt="react" />
+                  </div>
+                </div>
               </div>
             </div>
           </section>
