@@ -46,8 +46,16 @@ const Home = () => {
             <img src={portrait} alt="my portraite" />
           </section>
 
+
         </div>
       </section>
+          <section className="techs-bg">
+            <div className="container">
+              <div className="techs">
+                <h4>Front-End Skills: </h4>
+              </div>
+            </div>
+          </section>
     </main>
   )
 }

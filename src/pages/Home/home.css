@@ -13,6 +13,9 @@
 .home {
     grid-area: content;
 }
+.app {
+    position: relative;
+}
 
 /* DESKTOP FIRST */
 .main-home { 
@@ -41,7 +44,6 @@
     margin: 2.7rem 0px 2rem 0px;
 }
 .home-skill {
-    display: flex;
     align-items: center;
     font-size: 1.3rem;
     gap: 3px;
@@ -61,7 +63,23 @@
     line-height: 1.9;    
 }
 .right-home {
+    display: flex;
     position: absolute;
     right: 21px;
     top: 91px;
+    z-index: 0;
+}
+
+.techs-bg {
+    grid-column: 1 / 9;
+    grid-row: 2;
+    background-color: var(--primary-color);
+    margin-top: 117px;
+    min-height: 213px;
+    clip-path: polygon(0% 35.13%, 0% 25%, 55.44% 25%, 62.9% 0%, 100% 0%, 100% 100%, 0% 100%);
+    display: flex;
+    align-items: center;
+}
+.techs > h4 {
+    color: var(--forth-color);
 }
