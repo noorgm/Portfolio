@@ -1,23 +1,39 @@
-import React from 'react';
-import './navbar.css';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../assets/images/logo1.png';
+
+import MenuIcon from '@mui/icons-material/Menu'
+import './navbar.css';
 
 const Navbar = () => {
+
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const menuIconHandler = () => {
+    setOpenMenu(!openMenu);
+  };
+
+  const menuIconNavHandler = () => {
+    setOpenMenu(false);
+  };
+
   return (
     <section className='container'>
       <nav className="grid">
-        <Link to='/' className='logo'>
-          <img src={logo} alt="logo" />
+        <Link to='/' className='nav-logo' onClick={menuIconNavHandler}>
+          <h4>logo here</h4>
         </Link>
 
-        <div className="ul">
-          <NavLink className='one'  style={({ isActive, isPending }) => { return { color: isActive ? 'var(--highlight)' : '', fontWeight: isActive ? 'bolder' : '' }; }} >Home</NavLink>
-          <NavLink className='two' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--highlight)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>About Me</NavLink>
-          <NavLink className='three' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--highlight)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>Projects</NavLink>       
+        <div className={`menu-icon ${openMenu ? 'active' : ''}`} onClick={menuIconHandler}>
+          <MenuIcon />
         </div>
 
-        <Link className='nav-contact'>
+        <div className={`nav-ul ${openMenu ? 'active' : ''}`}>
+          <NavLink className='a-a'  style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' }; }} >Home</NavLink>
+          <NavLink className='a-a' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>About Me</NavLink>
+          <NavLink className='a-a' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>Projects</NavLink>       
+        </div>
+
+        <Link onClick={menuIconNavHandler} className={`nav-sign ${openMenu ? 'active' : ''}`}>
           <button>Contact Me</button>
         </Link>     
       </nav>
