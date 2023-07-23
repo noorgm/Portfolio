@@ -17,7 +17,6 @@
 /* DESKTOP FIRST */
 .main-home { 
     margin-top: 51px;
-    /* background-color: antiquewhite; */
 }
 .left-home {
     grid-column: 1 / 6;
@@ -25,8 +24,41 @@
     flex-direction: column;
     justify-content: center;
 }
-.l-h-top * {
-    font-size: 5rem;
+.l-h-top h1 {
+    font-size: 6rem;
+    letter-spacing: 2px;
+}
+.l-h-top h2 {
+    font-size: 3.7rem;
+}
+.front-end {  
+    color: var(--secondary-color);
+}
+.l-h-middle {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin: 2.7rem 0px 2rem 0px;
+}
+.home-skill {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 3px;
+}
+.l-h-middle img {
+    max-width: 37px;
+    height: 27px;
+}
+.home-btns {
+    display: flex;
+    gap: 73px;
+    margin-top: 37px;
+    padding: 7px 0px;
+}
+.home-description {
+    max-width: 71%;
+    line-height: 1.9;    
 }
 .right-home {
     position: absolute;

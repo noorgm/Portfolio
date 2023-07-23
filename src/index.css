@@ -55,7 +55,7 @@ body button {
 
 h1, h2, h3, h4 {
     font-size: 2.5rem;
-    color: var(--main-text);
+    color: var(--primary-color);
     font-weight: 700;
 }
 
