@@ -14,6 +14,7 @@ import xd from '../../assets/images/techs/xd.png';
 import figma from '../../assets/images/techs/figma.svg';
 import mui from '../../assets/images/techs/mui.png';
 import bootstrap from '../../assets/images/techs/bootstrap.svg';
+import DownloadIcon from '@mui/icons-material/Download';
 import './home.css';
 
 
@@ -47,7 +48,7 @@ const Home = () => {
             </div>
             <div className="home-btns">
               <button>View My Work</button>
-              <button>Download CV</button>
+              <button>Download CV<span className='download-icon'><DownloadIcon /></span></button>
             </div>
           </section>
 
