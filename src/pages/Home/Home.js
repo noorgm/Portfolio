@@ -15,6 +15,8 @@ import figma from '../../assets/images/techs/figma.svg';
 import mui from '../../assets/images/techs/mui.png';
 import bootstrap from '../../assets/images/techs/bootstrap.svg';
 import DownloadIcon from '@mui/icons-material/Download';
+
+import About from '../../components/Aboutme/AboutMe';
 import './home.css';
 
 
@@ -97,6 +99,8 @@ const Home = () => {
               </div>
             </div>
           </section>
+
+        <About />
     </main>
   )
 }
