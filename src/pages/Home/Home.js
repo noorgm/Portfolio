@@ -9,6 +9,11 @@ import html from '../../assets/images/techs/html.svg';
 import css from '../../assets/images/techs/css.svg';
 import js from '../../assets/images/techs/js.svg';
 import react from '../../assets/images/techs/react.svg';
+import ai from '../../assets/images/techs/ai.svg';
+import xd from '../../assets/images/techs/xd.png';
+import figma from '../../assets/images/techs/figma.svg';
+import mui from '../../assets/images/techs/mui.png';
+import bootstrap from '../../assets/images/techs/bootstrap.svg';
 import './home.css';
 
 
@@ -71,6 +76,21 @@ const Home = () => {
                   </div>
                   <div className="tech-card">
                     <img src={react} alt="react" />
+                  </div>
+                  <div className="tech-card">
+                    <img src={ai} alt="ai" />
+                  </div>
+                  <div className="tech-card">
+                    <img src={xd} alt="xd" />
+                  </div>
+                  <div className="tech-card">
+                    <img src={figma} alt="figma" />
+                  </div>
+                  <div className="tech-card">
+                    <img src={mui} alt="mui" />
+                  </div>
+                  <div className="tech-card">
+                    <img src={bootstrap} alt="bootstrap" />
                   </div>
                 </div>
               </div>
