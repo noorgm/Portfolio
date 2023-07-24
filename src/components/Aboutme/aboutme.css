@@ -38,7 +38,7 @@
 .download-icon {
     color: var(--fifth-color);
 }
-.right-about-me h3, h4 {
+.right-about-me h3, .right-about-me h4 {
     color: var(--secondary-color);
     font-size: 1.5rem;
     margin-bottom: 1rem;
