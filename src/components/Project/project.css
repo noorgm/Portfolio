@@ -7,10 +7,7 @@
     margin-bottom: 1rem;
 }
 
-.project-box-img > img {
-    max-width: 240px;
-    height: 320px;
-}
+
 .projects {
     /* margin: 151px 0px; */
     margin: 71px 0px;
@@ -57,4 +54,13 @@
 }
 .project-arrow-icon:hover {
     background-color: var(--fifth-color);
+}
+.project-box-img {
+    text-align: center;
+    padding: 17px;
+}
+.project-box-img > img {
+    width: 43%;
+    border-radius: 13%;
+    transform: rotate(-10deg);
 }
