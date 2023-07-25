@@ -16,18 +16,18 @@
 .project-box {
     grid-column: span 4;
     background-color: var(--third-color);
-    width: max(43%, 630px);
-    height: 670px;
+    width: max(81%, 400px);
+    height: 571px;
     box-shadow: 11px 11px 0px 0px var(--primary-color);
     border-bottom-left-radius: 37px;
     border-top-right-radius: 37px;
     border: 3px solid var(--primary-color);
-    margin-bottom: 31px;
+    /* overflow: hidden; */
 }
 .project-box-heading {
     display: flex;
     justify-content: space-between;
-    margin: 33px;
+    margin: 23px;
     align-items: center;
 }
 .p-b-h-left > h4 {
@@ -37,7 +37,7 @@
     display: flex;
     gap: 93px;
     align-items: center;
-    padding: 31px 31px;
+    padding: 15px;
 }
 .project-github-icon {
     scale: 2.3;
@@ -60,7 +60,6 @@
     padding: 17px;
 }
 .project-box-img > img {
-    width: 43%;
+    width: 47%;
     border-radius: 13%;
-    transform: rotate(-10deg);
 }
