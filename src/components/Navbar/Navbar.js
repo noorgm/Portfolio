@@ -28,12 +28,12 @@ const Navbar = () => {
         </div>
 
         <div className={`nav-ul ${openMenu ? 'active' : ''}`}>
-          <NavLink className='a-a'  style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' }; }} >Home</NavLink>
-          <NavLink className='a-a' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>About Me</NavLink>
-          <NavLink className='a-a' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>Projects</NavLink>       
+          <NavLink to='/' className='a-a'  style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' }; }} >Home</NavLink>
+          <NavLink to='/about' className='a-a' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>About Me</NavLink>
+          <NavLink to='project' className='a-a' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>Projects</NavLink>       
         </div>
 
-        <Link onClick={menuIconNavHandler} className={`nav-sign ${openMenu ? 'active' : ''}`}>
+        <Link to='contact' onClick={menuIconNavHandler} className={`nav-sign ${openMenu ? 'active' : ''}`}>
           <button>Contact Me</button>
         </Link>     
       </nav>
