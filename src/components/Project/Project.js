@@ -38,6 +38,31 @@ const Project = () => {
             </div>
           </div>
         </div>
+        <div className="projects grid">
+          <div className="project-left">
+            <div className="car-ss-bg">
+              <img src={carSs} alt="car screenshot" />
+            </div>
+          </div>
+          <div className="project-right">
+            <div className="p-r-heading">
+              <h3>Car Hire</h3>
+              <img src={carLogo} alt="car logo" />
+            </div>
+            <div className="p-r-middle">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum iste voluptatibus asperiores vero. Voluptas deleniti sequi ducimus itaque nostrum, vitae similique, voluptatibus delectus molestiae fugit, repudiandae quos necessitatibus unde eius. Non!</p>
+              <div className="p-r-lib">
+                <p>Lorem, ipsum</p>
+                <p>Lorem, ipsum</p>
+              </div>
+            </div>
+            <div className="p-r-bottom">
+              <GitHub className='project-github-icon' />
+              <NorthEastIcon className='project-arrow-icon'/>
+            </div>
+          </div>
+
+        </div>
 
       </div>
     </section>
