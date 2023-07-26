@@ -10,12 +10,14 @@ import './project.css';
 const Project = () => {
   return (
     <section className="project-bg">
-      <div className="container">
+      <div className="project-container">
         <h3 className='project-heading'>Projects</h3>
 
         <div className="projects grid">
           <div className="project-left">
-            <img src={carSs} alt="car screenshot" />
+            <div className="car-ss-bg">
+              <img src={carSs} alt="car screenshot" />
+            </div>
           </div>
 
           <div className="project-right">
