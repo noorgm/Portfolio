@@ -3,11 +3,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 437px;
-    margin-top: 3rem;
+    margin-top: 111px;
 }
 
 .contact {
-    margin: 111px 0px;
+    padding: 121px 0px;
 }
 .contact-top {
     grid-column: 3 / 9;
