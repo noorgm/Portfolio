@@ -6,7 +6,10 @@
     border-top: 5px solid var(--fifth-color);
 }
 
-.footer * {
+
+
+
+/* .footer * {
     color: var(--forth-color);
 }
 .footer-top {
@@ -55,4 +58,4 @@
 }
 .f-r-icon:nth-child(1) {
     scale: 1.6;
-}
+} */

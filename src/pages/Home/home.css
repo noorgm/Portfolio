@@ -12,12 +12,42 @@
 /* Don't touch the top .name class */
 .home {
     grid-area: content;
+    margin-top: 3rem;
 }
-.app {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .app {
     position: relative;
 }
 
-/* DESKTOP FIRST */
 .main-home { 
     margin-top: 51px;
 }
@@ -27,6 +57,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .l-h-top h1 {
     font-size: 6rem;
     letter-spacing: 2px;
@@ -78,7 +109,6 @@
     z-index: 0;
 }
 
-/* Tech SKILLS */
 .techs-bg {
     grid-column: 1 / 9;
     grid-row: 2;
@@ -90,7 +120,6 @@
     align-items: center;
 }
 .tech-heading {
-    /* padding: 31px; */
     padding-right: 23px;
     border-right: 2px solid var(--forth-color);
 }
@@ -124,4 +153,4 @@
 .tech-card:hover {
     box-shadow: 5px 5px 0px 0px var(--fifth-color);
     transition: 0.1s ease-in;
-}
+} */
