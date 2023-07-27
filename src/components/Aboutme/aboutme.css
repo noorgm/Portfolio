@@ -2,11 +2,12 @@
     background-image: url('../../assets/images/dark-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
+    /* background-color: var(--third-color); */
     min-height: 700px;
 }
 
 .about-me {
-    margin: 151px 0px;
+    padding: 151px 0px;
 }
 .left-about-me {
     grid-column: 1 / 5;

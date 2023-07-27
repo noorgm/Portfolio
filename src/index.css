@@ -22,28 +22,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: 'Space Grotesk', sans-serif;
 }
 *::after, *::before {
     box-sizing: border-box;
 }
 
-html, body {
+body {
     background-image: url('./assets/images/main-background.png');
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 16px;
     font-family: 'Ysabeau SC', sans-serif;
     height: 100%;
-    background-color: var(--third--color);
 }
 body, a, Link {
     text-decoration: none;
     list-style-type: none;
 }
 
-body button {
+button {
     padding: 13px 27px;
     border: none;
     background-color: #000;
@@ -52,7 +51,7 @@ body button {
     box-shadow: 5px 5px 0px 0px var(--fifth-color);
     cursor: pointer;
 }
-body button:hover {
+button:hover {
     box-shadow: 5px 5px 0px 0px var(--secondary-color);
 }
 

@@ -1,39 +1,25 @@
-import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React from 'react';
 
-import MenuIcon from '@mui/icons-material/Menu'
+import { Link } from 'react-scroll';
+
 import './navbar.css';
 
 const Navbar = () => {
 
-  const [openMenu, setOpenMenu] = useState(false);
-
-  const menuIconHandler = () => {
-    setOpenMenu(!openMenu);
-  };
-
-  const menuIconNavHandler = () => {
-    setOpenMenu(false);
-  };
-
   return (
     <section className='container'>
-      <nav className="grid">
-        <Link to='/' className='nav-logo' onClick={menuIconNavHandler}>
+      <nav>
+        <Link to='home' spy={true} smooth={true} offset={50} duration={500} className='nav-logo'>
           <h4>logo here</h4>
         </Link>
 
-        <div className={`menu-icon ${openMenu ? 'active' : ''}`} onClick={menuIconHandler}>
-          <MenuIcon />
+        <div className='nav-ul'>
+          <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+          <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>About Me</Link>
+          <Link to="project" spy={true} smooth={true} offset={-100} duration={500} >Projects</Link>       
         </div>
 
-        <div className={`nav-ul ${openMenu ? 'active' : ''}`}>
-          <NavLink to='/' className='a-a'  style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' }; }} >Home</NavLink>
-          <NavLink to='/about' className='a-a' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>About Me</NavLink>
-          <NavLink to='project' className='a-a' style={({ isActive, isPending }) => { return { color: isActive ? 'var(--secondary-color)' : '', fontWeight: isActive ? 'bolder' : '' };  }}>Projects</NavLink>       
-        </div>
-
-        <Link to='contact' onClick={menuIconNavHandler} className={`nav-sign ${openMenu ? 'active' : ''}`}>
+        <Link className='nav-sign' to="contact" spy={true} smooth={true} offset={-100} duration={500}>
           <button>Contact Me</button>
         </Link>     
       </nav>

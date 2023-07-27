@@ -49,7 +49,7 @@
     display: flex;
     color: var(--secondary-color);
     box-shadow: 0px 0px 4px 5px var(--third-color);
-    margin: 0.3rem;
+    margin: 0.4rem;
 }
 .contact-icon {
     transform: scale(2);

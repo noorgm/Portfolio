@@ -8,9 +8,9 @@ import './aboutme.css';
 
 const About = () => {
   return (
-    <section className="about-me-bg">
+    <section className="about-me-bg" id="about">
       <div className="container">
-        <div className="about-me grid">
+        <div className="about-me grid" >
           <section className="left-about-me">
             <img src={workSpace} alt="work space" />
           </section>

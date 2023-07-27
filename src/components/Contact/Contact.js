@@ -6,9 +6,9 @@ import './contact.css';
 
 const Contact = () => {
   return (
-    <section className="contact-bg">
+    <section className="contact-bg" id="contact">
       <div className="container">
-        <div className="contact grid">
+        <div className="contact grid" >
           <div className="contact-top">
             <h3>CONTACT</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
