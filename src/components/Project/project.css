@@ -1,0 +1,14 @@
+.project-bg {
+    margin: 4.7rem 0px;
+}
+
+
+.top-project {
+    grid-column: 1 / 9;
+    text-align: center;
+}
+.project h3 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

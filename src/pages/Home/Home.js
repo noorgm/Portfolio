@@ -16,8 +16,8 @@ import mui from '../../assets/images/techs/mui.png';
 import bootstrap from '../../assets/images/techs/bootstrap.svg';
 import DownloadIcon from '@mui/icons-material/Download';
 
-// import About from '../../components/Aboutme/AboutMe';
-// import Project from '../../components/Project/Project';
+import About from '../../components/Aboutme/AboutMe';
+import Project from '../../components/Project/Project';
 // import Contact from '../../components/Contact/Contact';
 import './home.css';
 
@@ -101,6 +101,9 @@ const Home = () => {
         </div>
 
       </section>
+
+      <About />
+      <Project />
     </main>
   )
 }

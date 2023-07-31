@@ -8,8 +8,13 @@ import './project.css';
 
 const Project = () => {
   return (
-    <section className="project-bg grid" id="project">
-
+    <section className="project-bg" id="project">
+      <div className="project grid">
+        <section className="top-project">
+          <h3>PORTFOLIO</h3>
+          <p>Current project and the upcoming project</p>
+        </section>
+      </div>
     </section>
   )
 }

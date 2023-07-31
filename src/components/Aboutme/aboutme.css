@@ -1,0 +1,47 @@
+.about-me-bg {
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+
+.about-me {
+    padding: 4.7rem 0px;
+}
+.left-about-me {
+    display: none;
+    grid-column: 1 / 9;
+}
+.left-about-me img {
+    box-shadow: 11px 11px 0px 0px var(--secondary-color);
+    border-top-left-radius: 37px;
+    border-bottom-left-radius: 37px;
+    border-top-right-radius: 37px;
+    border: 3px solid var(--secondary-color);
+    width: min(100%, 531px);
+}
+.right-about-me {
+    grid-column: 1 / 9;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+}
+.about-me-download {
+    padding-top: 2.1rem;
+}
+.about-me-download button {
+    gap: 11px;
+    margin: 10px 0px;
+}
+.download-icon {
+    color: var(--fifth-color);
+}
+.right-about-me h3, .right-about-me h4 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.right-about-me h4 {
+    color: var(--primary-color);
+}
