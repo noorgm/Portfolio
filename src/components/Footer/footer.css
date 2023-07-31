@@ -2,7 +2,7 @@
     grid-area: footer;
     background-color: var(--primary-color);
     /* margin-top: 3rem; */
-    min-height: 191px;
+    /* min-height: 191px; */
     border-top: 5px solid var(--fifth-color);
 }
 

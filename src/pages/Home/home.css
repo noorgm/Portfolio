@@ -10,15 +10,127 @@
     letter-spacing: 2px;
 } */
 /* Don't touch the top .name class */
-.home {
+.home-bg {
     grid-area: content;
+    background-color: #f8f8f8;
+    margin-top: 4.7rem;
+}
+/* MOBILE SCREEN */
+.home {
+    margin-top: 1.2rem;
+    position: relative;
+}
+.right-home {
+    grid-column: 1 / 9;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.right-home > img {
+    width: min(100%, 400px);
+}
+.left-home {
+    grid-column: 1 / 9;
+    text-align: center;
+}
+.l-h-top {
+    margin-top: 1rem;
+}
+.l-h-top > h1 {
+    font-size: clamp(2rem, 2rem + 5vw, 5rem);    
+}
+.l-h-top > h2 {
+    font-size: clamp(2rem, 1.5rem + 2vw, 3.4rem);
+    font-weight: 600;
+}
+.front-end {
+    color: var(--secondary-color);
+    font-style: italic;
 }
 
+.l-h-middle {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    /* justify-content: space-between; */
+    margin: 1rem 0px 1.7rem 0px;
+}
+.home-skill {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.l-h-middle img {
+    height: 27px;
+}
 
+.home-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.home-btns button:last-of-type {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.download-icon {
+    color: var(--fifth-color);
+}
+.home-description {
+    line-height: 1.9;    
+}
 
+/* TECH SECTION */
+.techs-bg {
+    background-color: var(--primary-color);
+    min-height: 213px;
+    /* clip-path: polygon(0% 35.13%, 0% 21%, 59% 21%, 63% 0%, 100% 0%, 100% 100%, 0% 100%); */
+    margin: 4.7rem 0rem;
+    padding: 2rem 0px;
+}
+.techs {
+    display: flex;
+    flex-direction: column;
+}
+.tech-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--forth-color);
+    padding: 1rem;
+}
+.tech-heading h5 {
+    color: var(--forth-color);
+    font-size: 2rem;
+}
 
-
-
-
-
-
+.tech-skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+}
+.tech-skill img {
+    display: flex;
+    width: 31px;
+}
+.tech-card {
+    width: 91px;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 21px;
+    background-color: var(--forth-color);
+    box-shadow: 5px 5px 0px 0px var(--secondary-color);
+    margin: 10px;
+    cursor: pointer;
+}
+.tech-card:hover {
+    box-shadow: 5px 5px 0px 0px var(--fifth-color);
+    transition: 0.1s ease-in;
+}
