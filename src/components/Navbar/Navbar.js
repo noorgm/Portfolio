@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className='container'>
+    <section className='navbar'>
       <nav className='grid'>
         <Link to='home' spy={true} smooth={true} offset={-100} duration={500} className='nav-logo' onClick={menuIconNavHandler}>
           <h4>logo here</h4>
