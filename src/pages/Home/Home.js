@@ -53,11 +53,12 @@ const Home = () => {
             </div>
 
             <div className="home-description">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi asperiores eius amet, cumque minima deleniti eveniet quas quasi dignissimos odit exercitationem in.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicingamet</p>
+              <p>Developer sit amet elit. Esse, odit quas.</p>
             </div>
             <div className="home-btns">
               <button>View My Work</button>
-              <button>Download CV<span className='download-icon'><DownloadIcon /></span></button>
+              <button>Download CV <DownloadIcon className='download-icon'/></button>
             </div>
           </div>        
 

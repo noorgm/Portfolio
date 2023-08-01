@@ -46,8 +46,6 @@
 .f-r-icon:nth-child(1) {
     scale: 1.6;
 }
-
-
 .footer-bottom {
     grid-column: 1 / 9;
     grid-row: 2;
