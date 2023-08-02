@@ -2,15 +2,17 @@
     background-color: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 700px;
 }
 
 .about-me {
     padding: 4.7rem 0px;
 }
 .left-about-me {
-    display: none;
+    /* display: none; */
     grid-column: 1 / 9;
+    margin-bottom: 1.7rem;
+    display: flex;
+    justify-content: center;
 }
 .left-about-me img {
     box-shadow: 11px 11px 0px 0px var(--secondary-color);
@@ -27,16 +29,6 @@
     word-spacing: 2px;
     text-align: center;
 }
-.about-me-download {
-    padding-top: 2.1rem;
-}
-.about-me-download button {
-    gap: 11px;
-    margin: 10px 0px;
-}
-.download-icon {
-    color: var(--fifth-color);
-}
 .right-about-me h3, .right-about-me h4 {
     color: var(--secondary-color);
     font-size: 1.5rem;
@@ -44,4 +36,31 @@
 }
 .right-about-me h4 {
     color: var(--primary-color);
+}
+
+@media (min-width: 700px) {
+    .right-about-me {
+        grid-column: 2 / 8;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1050px) {
+    .about-me {
+        padding: 4.7rem 0px;
+        gap: 2rem;
+        background-color: aquamarine;
+    }
+    .left-about-me {
+        grid-column: 1 / 5;
+        margin-bottom: 0rem;
+        display: block;
+    }
+    .right-about-me {
+        grid-column: 5 / 9;
+        text-align: left;
+    }
 }

@@ -16,6 +16,11 @@
   margin-right: auto;
 }
 
+@media (min-width: 1000px) {
+  .grid {
+      width: 85%;
+  }
+}
 @media (min-width: 1350px) {
   .grid {
       width: 80%;
