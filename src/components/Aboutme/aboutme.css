@@ -52,7 +52,6 @@
     .about-me {
         padding: 4.7rem 0px;
         gap: 2rem;
-        background-color: aquamarine;
     }
     .left-about-me {
         grid-column: 1 / 5;
@@ -62,5 +61,13 @@
     .right-about-me {
         grid-column: 5 / 9;
         text-align: left;
+    }
+}
+
+@media (min-width: 1250px) {
+        .right-about-me {
+        grid-column: 5 / 8;
+        text-align: left;
+        line-height: 1.5;
     }
 }
