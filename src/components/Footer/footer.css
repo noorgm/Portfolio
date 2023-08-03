@@ -56,3 +56,17 @@
     letter-spacing: 1px;
     word-spacing: 1px;
 }
+
+@media (min-width: 700px) {
+    .footer-top {
+        flex-direction: row;
+        justify-content: space-between;
+        /* background-color: rgb(156, 203, 245); */
+    }
+    .footer-left {
+        text-align: left;
+    }
+    .footer-right {
+        padding-right: 1rem;
+    }
+}
