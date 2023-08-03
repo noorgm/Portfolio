@@ -60,3 +60,27 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+@media (min-width: 750px) {
+    .contact-top {
+        align-items: start;
+        margin-bottom: 2.3rem;
+        padding-left: 5rem;
+    }
+
+    .contact-location {
+        grid-column: span 4;
+        flex-direction: row;
+        gap: 1rem;
+        /* background-color: aquamarine; */
+    }
+    .mail {
+        padding-top: 0rem;
+    }
+    .c-l-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}

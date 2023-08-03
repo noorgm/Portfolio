@@ -168,12 +168,35 @@
     }
 }
 
-@media (min-width: 1200px) {
-    .l-h-top {
-        margin-top: 1rem;
+@media (min-width: 1400px) {
+    .techs-bg {
+         clip-path: polygon(0% 35.13%, 0% 21%, 59% 21%, 63% 0%, 100% 0%, 100% 100%, 0% 100%);
+         margin: 2rem 0px 0px 0px;
     }
-    .right-home > img {
-        width: min(100%, 500px);
-        max-height: 500px;
+    .techs {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 3rem;
+        margin: 3rem 0px;
     }
+    .tech-heading {
+        margin-bottom: 0rem;
+        border-right: 2px solid var(--forth-color);
+        border-bottom: none;
+    }
+    .tech-heading h5 {
+        font-size: 1.7rem;
+    }
+    .tech-skill img {
+        display: flex;
+        width: 31px;
+    }
+    .tech-card {
+        width: 81px;
+        height: 81px;
+        margin: 5px;
+    }    
+  
 }
