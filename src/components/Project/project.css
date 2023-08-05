@@ -10,6 +10,11 @@
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+.top-project > p {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
 
 /* PROJECTS */
 .project {
