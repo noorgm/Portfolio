@@ -19,6 +19,7 @@
 }
 .footer-logo > img {
     max-width: 245px;
+    cursor: pointer;
 }
 .footer-left p {
     padding-top: 1rem;

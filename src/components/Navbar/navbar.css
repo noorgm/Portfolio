@@ -25,14 +25,17 @@ nav {
 }
 .nav-logo img {
     max-width: 190px;
+    cursor: pointer;
 }
 .nav-ul > a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     cursor: pointer;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .nav-ul > a:hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .nav-ul {
     display: none;

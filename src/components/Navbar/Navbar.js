@@ -30,9 +30,9 @@ const Navbar = () => {
         </div>
 
         <div className={`nav-ul ${openMenu ? 'active' : ''}`}>
-          <Link to="home" className='items' spy={true} smooth={true} offset={100} duration={500} onClick={menuIconNavHandler}>Home</Link>
-          <Link to="about" className='items' spy={true} smooth={true} offset={100} duration={500} onClick={menuIconNavHandler}>About Me</Link>
-          <Link to="project" className='items' spy={true} smooth={true} offset={100} duration={500} onClick={menuIconNavHandler}>Projects</Link>       
+          <Link to="home" className='items' spy={true} smooth={true} offset={-100} duration={500} onClick={menuIconNavHandler}>Home</Link>
+          <Link to="about" className='items' spy={true} smooth={true} offset={-100} duration={500} onClick={menuIconNavHandler}>About Me</Link>
+          <Link to="project" className='items' spy={true} smooth={true} offset={-100} duration={500} onClick={menuIconNavHandler}>Projects</Link>       
           <Link className='items nav-contact' to="contact" spy={true} smooth={true} offset={100} duration={500} onClick={menuIconNavHandler}>
             <button>Contact Me</button>
           </Link>     

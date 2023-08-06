@@ -23,6 +23,23 @@ import './home.css';
 
 
 const Home = () => {
+
+  
+  const downloadButton = () => {
+
+    const cvURL = `${process.env.PUBLIC_URL}/cv.pdf`;
+
+    const link = document.createElement("a");
+    link.href = cvURL;
+    link.download = "cv.pdf";
+    document.body.appendChild(link);
+
+    link.click();
+
+
+    document.body.removeChild(link);
+  };
+
   return (
     <main className="home-bg">
       <section className="home" id="home">
@@ -57,8 +74,8 @@ const Home = () => {
               <p>Developer sit amet elit. Esse, odit quas.</p>
             </div>
             <div className="home-btns">
-              <button>View My Work</button>
-              <button>Download CV <DownloadIcon className='download-icon'/></button>
+              <button><a href="#contact" style={{ textDecoration: '#fff', color: 'inherit' }}>View My Work</a></button>
+              <button onClick={downloadButton}>Download CV <DownloadIcon className='download-icon'/></button>
             </div>
           </div>        
 
