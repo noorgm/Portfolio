@@ -3,6 +3,7 @@ import React from 'react';
 import GitHub  from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MoodIcon from '@mui/icons-material/Mood';
+import fLogo from '../../assets/images/f-logo.png';
 import './footer.css';
 
 const Footer = () => {
@@ -11,7 +12,9 @@ const Footer = () => {
       <div className="footer grid">
         <section className="footer-top">
           <div className="footer-left">
-            <h4>Logo Here</h4>
+            <div className="footer-logo">
+              <img src={fLogo} alt="logo" />
+            </div>
             <p className='footer-p-icon'>Thanks for visiting! <span className='smiley-icon'><MoodIcon /></span></p>
           </div>
           <div className="footer-right">

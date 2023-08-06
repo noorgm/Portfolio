@@ -17,6 +17,9 @@
 .footer-left {
     text-align: center;
 }
+.footer-logo > img {
+    max-width: 245px;
+}
 .footer-left p {
     padding-top: 1rem;
     font-style: italic;
