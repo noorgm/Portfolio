@@ -21,11 +21,10 @@ nav {
 .nav-logo {
     grid-column: 1 / 4;
     grid-row: 1;
-    padding-bottom: 13px;
+    /* padding-bottom: 13px; */
 }
 .nav-logo img {
-    width: 90%;
-    max-width: 101px;
+    max-width: 190px;
 }
 .nav-ul > a {
     color: var(--primary-color);
@@ -72,6 +71,12 @@ nav {
     content: 'X';
     font-size: 1.4rem;
     display: block;
+}
+
+@media (min-width: 700px) {
+    .nav-logo img {
+        max-width: 275px;
+    }
 }
 
 @media (min-width: 960px) {
