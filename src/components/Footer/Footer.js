@@ -18,8 +18,8 @@ const Footer = () => {
             <p className='footer-p-icon'>Thanks for visiting! <span className='smiley-icon'><MoodIcon /></span></p>
           </div>
           <div className="footer-right">
-            <GitHub className='f-r-icon' />
-            <LinkedInIcon className='f-r-icon' />
+            <a href="https://github.com/noorgm/Portfolio" target="_blank" rel="noreferrer"><GitHub className='f-r-icon' /></a>
+            <a href="https://www.linkedin.com/in/noorullah-ghol-mohammed-00118423b/" target="_blank" rel="noreferrer"><LinkedInIcon className='f-r-icon' /></a>          
           </div>
         </section>
 

@@ -30,8 +30,8 @@ const Project = () => {
                 <p>React</p>
               </div>
               <div className="f-pp-links">
-                <GitHub className='project-icon' />
-                <NorthEastIcon className='project-icon' />
+                <a href="https://github.com/noorgm" target="_blank" rel="noreferrer"><GitHub className='project-icon'/></a>
+                <a href="https://www.carhire.noorullah.me" target="_blank" rel="noreferrer"><NorthEastIcon className='project-icon car-hire' /></a>                
               </div>
             </div>
           </div>
@@ -51,8 +51,8 @@ const Project = () => {
                 <p>React</p>
               </div>
               <div className="f-pp-links">
-                <GitHub className='project-icon' />
-                <NorthEastIcon className='project-icon' />
+                <a href="https://github.com/noorgm/Portfolio" target="_blank" rel="noreferrer"><GitHub className='project-icon'/></a>
+                <a href="https://www.carhire.noorullah.me" target="_blank" rel="noreferrer"><NorthEastIcon className='project-icon car-hire'/></a>
               </div>
             </div> 
           </div>
