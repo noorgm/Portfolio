@@ -31,7 +31,7 @@ const Project = () => {
               </div>
               <div className="f-pp-links">
                 <a href="https://github.com/noorgm" target="_blank" rel="noreferrer"><GitHub className='project-icon'/></a>
-                <a href="https://www.carhire.noorullah.me" target="_blank" rel="noreferrer"><NorthEastIcon className='project-icon car-hire' /></a>                
+                <a href="https://car-hire.noorullah.me" target="_blank" rel="noreferrer"><NorthEastIcon className='project-icon car-hire' /></a>                
               </div>
             </div>
           </div>
