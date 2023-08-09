@@ -20,31 +20,25 @@
     border-bottom-left-radius: 37px;
     border-top-right-radius: 37px;
     border: 3px solid var(--secondary-color);
-    width: min(100%, 531px);
+    width: min(100%, 591px);
 }
 .right-about-me {
     grid-column: 1 / 9;
     font-size: 1.1rem;
-    letter-spacing: 1px;
-    word-spacing: 2px;
     text-align: center;
 }
 .right-about-me h3, .right-about-me h4 {
     color: var(--secondary-color);
     font-size: 1.5rem;
-    margin-bottom: 1rem;
 }
 .right-about-me h4 {
+    margin: 0.5rem 0px;
     color: var(--primary-color);
 }
 
 @media (min-width: 700px) {
     .right-about-me {
         grid-column: 2 / 8;
-        font-size: 1.1rem;
-        letter-spacing: 1px;
-        word-spacing: 2px;
-        text-align: center;
     }
 }
 

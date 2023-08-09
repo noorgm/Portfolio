@@ -18,7 +18,8 @@ const About = () => {
           <div className="r-a-me-box">
             <h3>ABOUT ME</h3>
             <h4>A hard working and motivated Front End Developer</h4>
-            <p>Delectus, minima, magnam Lorem ipsum dolor sit amet consectetur adipisicing.fugit explicabo unde ea, cupiditate nesciunt aliquam. Tenetur dicta natus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, provident velit deleniti suscipit rerum vitae, molestias tempore tempora nemo vero soluta expedita. At, repellat aliquid!ab obcaecati id.</p> 
+            <p>A highly motivated individual seeking a Front-End development position. I'm proficient in HTML, CSS, MUI and Bootstrap, also I have solid understanding of JavaScript and React, but there is room for improvement. 
+            I'm skilled in creating sketches, designed it using Adobe XD or Figma, and maintaining responsive websites that offer smooth user experience. My expertise in developing user interfaces for better user satisfaction and engaging design using clean code. My aim is to take on new challenges, and use my skills to enhance user experience through new features and improvements.</p> 
           </div>
         </section>
         </div>

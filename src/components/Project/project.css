@@ -36,6 +36,7 @@
 .f-p-img, .s-p-img {
     /* width: 100%; */
     border-bottom: 3px solid var(--primary-color);
+    height: auto;
 }
 .f-p-img > img, .s-p-img > img {
     width: 100%;
