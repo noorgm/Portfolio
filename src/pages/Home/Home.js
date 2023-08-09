@@ -73,7 +73,7 @@ const Home = () => {
               <p>I'm a Front-End Developer and UI/UX designer based in Leeds.</p>
             </div>
             <div className="home-btns">
-              <button><a href="#contact" style={{ textDecoration: '#fff', color: 'inherit' }}>View My Work</a></button>
+              <button><a href="#project" style={{ textDecoration: '#fff', color: 'inherit' }}>View My Work</a></button>
               <button onClick={downloadButton}>Download CV <DownloadIcon className='download-icon'/></button>
             </div>
           </div>        

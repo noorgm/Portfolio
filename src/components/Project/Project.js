@@ -44,7 +44,7 @@ const Project = () => {
             </div>
             <div className="s-p-info">
               <h3>Muscle Car designed it using XD</h3>
-              <p>I have designed it using Adobe Illustrator to create the logo and put car and its background together. And Adobe XD to designed the whole page.</p>
+              <p>I have designed it using Adobe Illustrator to create the logo and the car, and Adobe XD to designed the page.</p>
             </div>       
 
             <div className="s-p-part">
