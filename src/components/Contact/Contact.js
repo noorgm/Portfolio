@@ -1,6 +1,7 @@
 import React from 'react';
 
-import PinDropOutlinedIcon from '@mui/icons-material/PinDropOutlined';
+// import PinDropOutlinedIcon from '@mui/icons-material/PinDropOutlined';
+import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
 import MarkEmailUnreadOutlinedIcon from '@mui/icons-material/MarkEmailUnreadOutlined';
 import './contact.css';
 
@@ -9,16 +10,16 @@ const Contact = () => {
     <section className="contact-bg" id="contact">
       <div className="contact-top">
         <h3>CONTACT ME</h3>
-        <p>Don't hesistate to contact me</p>
+        <p>For further enquries please don't hesitate to contact me:</p>
       </div>
       <div className="contact-bottom grid">
         <div className="contact-location">
           <div className="c-l-icon">
-            <PinDropOutlinedIcon className='contact-icon' />
+            <PhoneInTalkOutlinedIcon className='contact-icon' />
           </div>
           <div className="c-l-info">
-            <h4>Location</h4>
-            <p>Leeds, West Yorkshire, UK</p>
+            <h4>Mobile</h4>
+            <p>07399409176</p>
           </div>
         </div>
         <div className="contact-location mail">
@@ -27,7 +28,7 @@ const Contact = () => {
           </div>
           <div className="c-l-info">
             <h4>Mail</h4>
-            <p>new-email@gmail.com</p>
+            <p>noorullahgm.2022@gmail.com</p>
           </div>
         </div>
       </div>
