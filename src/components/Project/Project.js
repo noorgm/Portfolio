@@ -53,7 +53,7 @@ const Project = () => {
                 <p>Adobe Illustrator</p>
               </div>
               <div className="f-pp-links">
-                <a href="https://github.com/noorgm/Portfolio" target="_blank" rel="noreferrer"><GitHub className='project-icon'/></a>
+                <a href={muscleCar} target="_blank" rel="noreferrer"><GitHub className='project-icon'/></a>
                 <a href={muscleCar} target="_blank" rel="noreferrer"><NorthEastIcon className='project-icon car-hire'/></a>
               </div>
             </div> 
