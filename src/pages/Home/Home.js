@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import portrait from '../../assets/images/portrait1.png'
+import portrait from '../../assets/images/portrait.png'
 import ui from '../../assets/images/ui.png'
 import responsive from '../../assets/images/laptop.png'
 import git from '../../assets/images/git.png'
